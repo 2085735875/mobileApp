@@ -1,0 +1,293 @@
+*{
+	 padding: 0;
+	 margin: 0;
+	 box-sizing: border-box;
+ }
+ 
+ /* ......................Here it is header section................................ */
+ 
+ .hero-section{
+	 padding: 45px 0 65px 0;
+	/* background-color:#c63e35; */
+	background-image: linear-gradient(rgb(218,51,45,0.5),rgb(218,51,45,0.5)),url("../images/hero-img.JPG");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	/* background-size: 100% 100%; */
+	width: 100%;
+	background-attachment: fixed;
+	overflow: hidden;
+ }
+ 
+ .container{
+	 width: 1180px;
+	 margin: 0 auto;
+	
+ }
+ 
+ .row,
+ .row:after,
+ .row:before{
+	 display: table;
+	 width: 100%;
+	 clear: both;
+ }
+ .navbar li{
+	 list-style: none;
+	 display: inline-block;
+ }
+ .navbar li a{
+	 text-decoration: none;
+	 color: #fff;
+	 text-transform: uppercase;
+	  display: inline-block;
+	  margin-top: 15px;
+	  padding: 10px;
+	  margin-left: 10px;
+ }
+ [class^="col-"]{
+	 float: left;
+	  padding: 0 15px;
+ }
+ .col-6{
+	 width: 50%;
+ }
+ 
+ .logo{
+	 display: inline-block;
+	 margin-bottom: 155px;
+ }
+ 
+ .pri-heading{
+	 font-size: 52px;
+	 font-weight: bold;
+	 margin-bottom: 60px;
+	  color: #fff;
+	  text-transform: uppercase;
+ }
+ .choco p{
+	font-size: 36px; 
+	font-weight: 100;
+	margin-bottom: 50px;
+	 color: #fff;
+	width: 80%;
+ }
+ 
+ .choco i{
+	 width: 25px;
+	 height: 40px;
+	 margin-right: 25px;
+ }
+ .choco a{
+	 color: #fff;
+	 font-size: 17px;
+	 font-weight: bold;
+	 text-decoration: none;
+	 width: 360px;
+	 height: 70px;
+	 background-color: #282828;
+	 display: inline-block;
+	 text-align: center;
+	 line-height: 70px;
+	 border-radius: 50px;
+ }
+ 
+ .mobile{
+	position: relative; 
+ }
+ .mobile img{
+	position: absolute;
+	right: 0;
+	top: -40px;
+	/* width: 85%; */
+ }
+ 
+ /* ......................Here it is a features section........................................ */
+ 
+ .features{
+	 width: 100%;
+	 padding: 80px 0 110px;
+ }
+ .col-4{
+	 width: calc(100% * 4 / 12);
+ }
+ .col-12{
+	 width: calc(100% * 12 / 12);
+ }
+ 
+ .info-features{
+	 text-align: center;
+ }
+ .info-features h2{
+	 color: #8a8a8a;
+	 margin-bottom: 40px;
+ }
+ .info-features p{
+	 font-size: 22px;
+	 color: #3a3a3a;
+	margin: 0 auto; 
+	  width: 70%;
+	  margin-bottom: 65px;
+ }
+ .layer {
+	
+	 text-align: center;
+ }
+ .layer h3{
+	 text-transform: uppercase;
+	 text-align: center;
+	 margin: 35px 0 40px;
+	 color: #1a1a1a;
+	 font-size: 24px;
+ }
+ .layer p{
+	 width: 63%;
+	 margin: 0 auto; 
+	 color: #646464;
+	 font-size: 18px;
+ }
+ 
+ .chocolate{
+	 padding: 190px 0 170px;
+	 background-image: url("../images/chocolate-img.JPG");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: right;
+	 background-attachment: fixed;
+	
+ }
+ 
+ .col-7{
+	 width: calc(100% * 7 / 12);
+ }
+ 
+  .choco-info h2 {
+	   width: 100%;
+  }
+ .choco-info h2 span{
+	color: #f55150;
+ }
+ .choco-info p{
+	 margin: 55px 0 70px;
+	 width: 60%;
+	 color: #585858;
+	 font-size: 24px;
+ }
+ .choco-info a{
+	 text-decoration: none;
+	 font-size: 15px;
+	 font-weight: bold;
+	 color: #ffff;
+	 background-color: #d9332d;
+	 padding: 24px 20px;
+	 border-radius: 40px;
+ }
+ 
+ /* ............................info-footer section..............................*/
+ 
+ .footer-info{
+	 width: 100%;
+	 background-color: #2e2e38;
+	 padding: 100px 0 145px;
+ }
+ 
+ .footer-list h4{
+	 color: #fff;
+	 font-size: 20px;
+	 font-weight: bold;
+	margin: 60px 0 25px;
+	} 
+ li{
+	 list-style: none;
+ }
+ .footer-info img{
+	  display: inline-block;
+	
+ }
+ .footer-list .box{
+	 width: 50px;
+	 height: 40px;
+	 background-color: #e74c3c;
+	  display: inline-block;
+	  
+ }
+ .footer-list li{
+	 margin-bottom: 25px;
+ }
+ .footer-list .donut{
+	 display: inline-block;
+	 margin-left: 15px;
+ } 
+ 
+ .donut p{
+	 font-size: 15px;
+	 color: #fff;
+ }
+ 
+ .lex p{
+	 font-size: 14px;
+	 color: #fff;
+	 font-weight: bold;
+ }
+ 
+ .lex .ago{
+	 font-weight: 400;
+	 font-size: 11px;
+	 margin-top: 10px;
+ }
+ 
+ .lex .sed{
+	 font-size: 15px;
+	 font-weight: 400;
+	 width: 50%;
+ }
+ 
+ .footer-list .about{
+	 font-style: italic;
+	 font-size: 15px;
+	 color: #fff;
+	  width: 70%;
+ }
+ 
+ /* ............................footer section..............................*/
+ 
+ .footer{
+	 width: 100%;
+	 padding: 40px 0 35px;
+	 background-color: #d7dedc;
+ }
+ 
+ .footer-last p{ 
+	display: inline-block;
+	font-size: 25px;
+ }
+ .footer-last span{
+	 margin: 0 22px;
+ }
+ .footer-last a{
+	 /* padding: 0 22px; */
+	 color: #000;
+ }
+ 
+ .footer-last ul{
+	 display: inline-block;
+ }
+ .footer-last li{
+	 display: inline-block;
+ }
+ 
+ .footer-last i{
+	 width: 30px;
+	 height: 30px;
+	
+ }
+ 
+ .footer-last li:nth-child(1){
+	color: #405d9d; 
+ }
+  .footer-last li:nth-child(2){
+	color: #c02966; 
+ }
+  .footer-last li:nth-child(3){
+	color: #34a6e0
+ }
